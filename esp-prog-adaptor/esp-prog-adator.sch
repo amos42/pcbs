@@ -40,9 +40,9 @@ EN
 Wire Wire Line
 	2200 2600 2450 2600
 Text Label 2000 3900 0    50   ~ 0
-TMS(IO14)
+TMS(G14)
 Text Label 7400 2800 2    50   ~ 0
-IO0
+G00
 Text Label 6450 2800 0    50   ~ 0
 RXD
 Text Label 6450 2900 0    50   ~ 0
@@ -66,13 +66,13 @@ Wire Wire Line
 Wire Wire Line
 	6450 2800 6650 2800
 Text Label 6300 3000 2    50   ~ 0
-TDO(IO15)
+TDO(G15)
 Text Label 2000 3600 0    50   ~ 0
-TCK(IO13)
+TCK(G13)
 Text Label 4700 4000 2    50   ~ 0
-TDO(IO15)
+TDO(G15)
 Text Label 2000 3700 0    50   ~ 0
-TDI(IO12)
+TDI(G12)
 Wire Wire Line
 	5900 3200 6300 3200
 Wire Wire Line
@@ -90,11 +90,11 @@ Wire Wire Line
 Wire Wire Line
 	2000 3900 2450 3900
 Text Label 6300 2900 2    50   ~ 0
-TDI(IO12)
+TDI(G12)
 Text Label 6300 3200 2    50   ~ 0
-TMS(IO14)
+TMS(G14)
 Text Label 6300 3100 2    50   ~ 0
-TCK(IO13)
+TCK(G13)
 $Comp
 L power:GND #PWR05
 U 1 1 61451BDC
@@ -246,10 +246,10 @@ F 3 "~" H 4050 3400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J3
+L Connector_Generic:Conn_02x05_Odd_Even JTAG
 U 1 1 612FDC12
 P 5700 3000
-F 0 "J3" H 5750 3417 50  0000 C CNN
+F 0 "JTAG" H 5750 3417 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5750 3326 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 5700 3000 50  0001 C CNN
 F 3 "~" H 5700 3000 50  0001 C CNN
@@ -257,10 +257,10 @@ F 3 "~" H 5700 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J4
+L Connector_Generic:Conn_02x03_Odd_Even PROG
 U 1 1 61300DFB
 P 6950 2900
-F 0 "J4" H 7000 3217 50  0000 C CNN
+F 0 "PROG" H 7000 3217 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 7000 3126 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 6950 2900 50  0001 C CNN
 F 3 "~" H 6950 2900 50  0001 C CNN
@@ -269,10 +269,8 @@ F 3 "~" H 6950 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 3200 5400 3200
-Text Label 5000 3200 0    50   ~ 0
-VCC1
 Text Label 7400 3000 2    50   ~ 0
-VCC2
+Vprog
 Wire Wire Line
 	7150 2800 7400 2800
 Wire Wire Line
@@ -280,9 +278,9 @@ Wire Wire Line
 Wire Wire Line
 	7150 2900 7500 2900
 Text Label 8600 3200 2    50   ~ 0
-VCC2
+Vprog
 Text Label 8650 3800 2    50   ~ 0
-VCC1
+Vjtag
 Wire Wire Line
 	2450 2800 2950 2800
 Wire Wire Line
@@ -367,6 +365,8 @@ Wire Wire Line
 Wire Wire Line
 	4250 3800 4450 3800
 Text Label 4450 3800 2    50   ~ 0
-IO0
+G00
 Connection ~ 4250 3800
+Text Label 5000 3200 0    50   ~ 0
+Vjtag
 $EndSCHEMATC
