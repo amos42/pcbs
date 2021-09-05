@@ -97,9 +97,9 @@ C_X
 Text Label 7000 2400 0    50   ~ 0
 C_Y
 Text Label 7000 2500 0    50   ~ 0
-C_L1
+C_L
 Text Label 7000 2600 0    50   ~ 0
-C_R1
+C_R
 Text Label 7000 2700 0    50   ~ 0
 C_EX1
 Text Label 7000 2800 0    50   ~ 0
@@ -358,11 +358,11 @@ Wire Wire Line
 Wire Wire Line
 	3150 3400 3650 3400
 Text Label 3650 3300 2    50   ~ 0
-C_R1
+C_R
 Wire Wire Line
 	3150 3300 3650 3300
 Text Label 3650 3200 2    50   ~ 0
-C_L1
+C_L
 Wire Wire Line
 	3150 3200 3650 3200
 Text Label 3650 3100 2    50   ~ 0
