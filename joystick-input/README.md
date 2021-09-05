@@ -13,6 +13,10 @@ PCB 뒷면
 
 ![PCB](images/joystick_pcb_b.png)
 
+PCB 이밎
+
+![PCB](images/pcb_image.jpg)
+
 샘플 이미지 앞면
 
-![](images/sample_01.jpg)
+![샘플](images/sample_01.jpg)

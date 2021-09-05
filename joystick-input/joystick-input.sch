@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74HC165 U1
+L 74xx:74HC165 74HC165_1
 U 1 1 61324A38
 P 5800 2800
-F 0 "U1" H 6000 3600 50  0000 C CNN
+F 0 "74HC165_1" H 6000 3600 50  0000 C CNN
 F 1 "74HC165" H 5900 2800 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5800 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 5800 2800 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 5800 28
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC165 U2
+L 74xx:74HC165 74HC165_2
 U 1 1 613277F7
 P 8000 2800
-F 0 "U2" H 8200 3600 50  0000 C CNN
+F 0 "74HC165_2" H 8200 3600 50  0000 C CNN
 F 1 "74HC165" H 8100 2800 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 8000 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 8000 2800 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 8000 28
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J2
+L Connector:Conn_01x03_Male PULL1
 U 1 1 6132E1E6
 P 8150 5000
-F 0 "J2" H 8258 5281 50  0000 C CNN
+F 0 "PULL1" H 8258 5281 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 8258 5190 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8150 5000 50  0001 C CNN
 F 3 "~" H 8150 5000 50  0001 C CNN
@@ -175,10 +175,10 @@ F 3 "" H 9600 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J3
+L Connector:Conn_01x03_Male SHORT1
 U 1 1 613769C0
 P 9450 4950
-F 0 "J3" H 9558 5231 50  0000 C CNN
+F 0 "SHORT1" H 9558 5231 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 9558 5140 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 4950 50  0001 C CNN
 F 3 "~" H 9450 4950 50  0001 C CNN
@@ -316,10 +316,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 3400 7500 3400
 $Comp
-L Device:R_Network08 RN2
+L Device:R_Network08 RN1
 U 1 1 61516673
 P 3850 2600
-F 0 "RN2" V 3233 2600 50  0000 C CNN
+F 0 "RN1" V 3233 2600 50  0000 C CNN
 F 1 "R_Network08" V 3324 2600 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 4325 2600 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3850 2600 50  0001 C CNN
@@ -327,10 +327,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3850 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x17_Male J1
+L Connector:Conn_01x17_Male JOYSTICK1
 U 1 1 61507D81
 P 2950 2900
-F 0 "J1" H 3058 3881 50  0000 C CNN
+F 0 "JOYSTICK1" H 3058 3881 50  0000 C CNN
 F 1 "Conn_01x17_Male" H 3058 3790 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 2950 2900 50  0001 C CNN
 F 3 "~" H 2950 2900 50  0001 C CNN
@@ -408,10 +408,10 @@ Wire Wire Line
 Text Label 4050 3900 0    50   ~ 0
 PULL
 $Comp
-L Connector:Conn_01x05_Male J4
+L Connector:Conn_01x05_Male OUT1
 U 1 1 613498FD
 P 10300 2400
-F 0 "J4" H 10408 2781 50  0000 C CNN
+F 0 "OUT1" H 10408 2781 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 10408 2690 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10300 2400 50  0001 C CNN
 F 3 "~" H 10300 2400 50  0001 C CNN
@@ -419,10 +419,10 @@ F 3 "~" H 10300 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J5
+L Connector:Conn_01x05_Male IN1
 U 1 1 6135617B
 P 10300 3600
-F 0 "J5" H 10408 3981 50  0000 C CNN
+F 0 "IN1" H 10408 3981 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 10408 3890 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10300 3600 50  0001 C CNN
 F 3 "~" H 10300 3600 50  0001 C CNN
@@ -555,10 +555,10 @@ F 3 "~" V 1950 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network08 RN1
+L Device:R_Network08 RN2
 U 1 1 614B9F97
 P 3850 3300
-F 0 "RN1" V 3233 3300 50  0000 C CNN
+F 0 "RN2" V 3233 3300 50  0000 C CNN
 F 1 "R_Network08" V 3324 3300 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 4325 3300 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3850 3300 50  0001 C CNN
