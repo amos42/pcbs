@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-09-05T20:46:35+09:00"
+    "CreationDate":  "2021-09-06T13:01:05+09:00"
   },
   "GeneralSpecs":
   {
@@ -50,16 +50,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "joystick-input-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "joystick-input-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "joystick-input-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
@@ -68,6 +58,16 @@
       "Path":  "joystick-input-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "joystick-input-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "joystick-input-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
     },
     {
       "Path":  "joystick-input-Edge_Cuts.gbr",
@@ -82,8 +82,8 @@
       "Notes":  "Layer F.SilkS"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
     },
     {
       "Type":  "Copper",
@@ -99,8 +99,8 @@
       "Notes":  "Layer B.Cu"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
     },
     {
       "Type":  "Legend",
