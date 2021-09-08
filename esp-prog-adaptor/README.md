@@ -29,13 +29,13 @@ Test Sample
 
 ![회로도](images/adaptor_sch.png)
 
-PCB 앞면
+PCB 배선
 
-![PCB](images/adaptor_pcb_f.png)
+![PCB](images/adaptor_pcb.png)
 
-PCB 뒷면
+PCB 이미지 앞면
 
-![PCB](images/adaptor_pcb_b.png)
+![PCB](images/adaptor_pcb_image_f.jpg)
 
 샘플 이미지 앞면
 
