@@ -31,7 +31,7 @@ Text Label 2650 2800 0    50   ~ 0
 EN
 Wire Wire Line
 	2650 2800 2900 2800
-Text Label 2450 4100 0    50   ~ 0
+Text Label 2450 3800 0    50   ~ 0
 TMS(G14)
 Text Label 9750 2850 2    50   ~ 0
 G00
@@ -42,12 +42,12 @@ TXD
 Text Label 8800 3050 0    50   ~ 0
 EN
 Wire Wire Line
-	4950 3000 5150 3000
-Text Label 5150 3000 2    50   ~ 0
+	4950 3100 5150 3100
+Text Label 5150 3100 2    50   ~ 0
 RXD
 Wire Wire Line
-	4950 2900 5150 2900
-Text Label 5150 2900 2    50   ~ 0
+	4950 3000 5150 3000
+Text Label 5150 3000 2    50   ~ 0
 TXD
 Wire Wire Line
 	9750 3050 9500 3050
@@ -59,12 +59,8 @@ Wire Wire Line
 	8800 2850 9000 2850
 Text Label 7900 2950 2    50   ~ 0
 TDO(G15)
-Text Label 2450 3800 0    50   ~ 0
-TCK(G13)
 Text Label 5400 4200 2    50   ~ 0
 TDO(G15)
-Text Label 2450 3900 0    50   ~ 0
-TDI(G12)
 Wire Wire Line
 	7500 3150 7900 3150
 Wire Wire Line
@@ -76,11 +72,9 @@ Wire Wire Line
 Wire Wire Line
 	4950 4200 5400 4200
 Wire Wire Line
-	2450 3800 2900 3800
-Wire Wire Line
 	2450 3900 2900 3900
 Wire Wire Line
-	2450 4100 2900 4100
+	2450 3800 2900 3800
 Text Label 7900 2850 2    50   ~ 0
 TDI(G12)
 Text Label 7900 3150 2    50   ~ 0
@@ -280,7 +274,6 @@ Wire Wire Line
 	2900 3700 3400 3700
 Wire Wire Line
 	2900 3800 3400 3800
-Connection ~ 2900 3800
 Wire Wire Line
 	2900 2700 3400 2700
 Connection ~ 2900 2700
@@ -290,7 +283,6 @@ Wire Wire Line
 	2900 4200 3400 4200
 Wire Wire Line
 	2900 4100 3400 4100
-Connection ~ 2900 4100
 Wire Wire Line
 	2900 4300 3400 4300
 Wire Wire Line
@@ -307,7 +299,6 @@ Wire Wire Line
 	4450 2800 4950 2800
 Wire Wire Line
 	4450 2900 4950 2900
-Connection ~ 4950 2900
 Wire Wire Line
 	4450 3000 4950 3000
 Connection ~ 4950 3000
@@ -405,4 +396,13 @@ F 3 "" H 7550 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 4250 7550 4250
+Connection ~ 4950 3100
+Text Label 2450 4100 0    50   ~ 0
+TCK(G13)
+Wire Wire Line
+	2450 4100 2900 4100
+Text Label 2450 3900 0    50   ~ 0
+TDI(G12)
+Connection ~ 2900 3800
+Connection ~ 2900 4100
 $EndSCHEMATC
