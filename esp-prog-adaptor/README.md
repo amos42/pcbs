@@ -14,9 +14,9 @@ Test Sample
 
 ![ESP32-DevKitC 보드](images/ESP32-DevKitC_Board_1.jpg)
 
-![ESP32-DevKitC 보드](images/ESP32-DevKitC_Board_2.jpg)
-
 ![ESP-Prog 보드](images/ESP-Prog_Board_1.jpg)
+
+![ESP-Prog 보드](images/ESP-Prog_Board_2.jpg)
 
 ![ESP32-DevKitC pinout](images/ESP32-DEV-KIT-DevKitC-v4-pinout.jpg)
 
