@@ -18,8 +18,6 @@ Test Sample
 
 ![ESP-Prog 보드](images/ESP-Prog_Board_1.jpg)
 
-![ESP-Prog 보드](images/ESP-Prog_Board_2.jpg)
-
 ![ESP32-DevKitC pinout](images/ESP32-DEV-KIT-DevKitC-v4-pinout.jpg)
 
 ![JTAG 핀](images/ESP-Prog_jtag_pin.png)
