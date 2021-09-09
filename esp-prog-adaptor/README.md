@@ -45,3 +45,12 @@ PCB 이미지 앞면
 
 ![](images/sample_02.jpg)
 
+전원 설정
+
+ESP-Prog의 전원 세팅에 맞춰 adaptor의 전원도 3.3V와 5V로 설정해 주어야 한다.
+
+![Power config 스위치](images/adaptor-power-config.jpg)
+
+실제 적용 모습
+
+![ESP-Prog Adaptor](images/esp-prog-adaptor.jpg)
