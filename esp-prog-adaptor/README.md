@@ -51,4 +51,6 @@ ESP-Prog의 전원 세팅에 맞춰 adaptor의 전원도 3.3V와 5V로 설정해
 
 실제 적용 모습
 
-![ESP-Prog Adaptor](images/esp-prog-adaptor.jpg)
+![ESP-Prog Adaptor](images/esp-prog-adaptor_1.jpg)
+
+![ESP-Prog Adaptor](images/esp-prog-adaptor_2.jpg)
