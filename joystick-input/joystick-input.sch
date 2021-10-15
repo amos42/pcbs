@@ -19,7 +19,7 @@ U 1 1 61324A38
 P 5800 2800
 F 0 "74HC165_1" H 6000 3600 50  0000 C CNN
 F 1 "74HC165" H 5900 2800 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 5800 2800 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5800 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 5800 2800 50  0001 C CNN
 	1    5800 2800
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 613277F7
 P 8000 2800
 F 0 "74HC165_2" H 8200 3600 50  0000 C CNN
 F 1 "74HC165" H 8100 2800 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8000 2800 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8000 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 8000 2800 50  0001 C CNN
 	1    8000 2800
 	1    0    0    -1  
@@ -76,37 +76,37 @@ F 3 "" H 8650 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 5100 8650 5100
-Text Label 4800 2300 0    50   ~ 0
-C_UP
-Text Label 4800 2400 0    50   ~ 0
-C_DOWN
-Text Label 4800 2500 0    50   ~ 0
-C_LEFT
-Text Label 4800 2600 0    50   ~ 0
-C_RIGHT
-Text Label 4800 2700 0    50   ~ 0
-C_START
-Text Label 4800 2800 0    50   ~ 0
-C_SELECT
-Text Label 4800 2900 0    50   ~ 0
-C_A
 Text Label 4800 3000 0    50   ~ 0
+C_UP
+Text Label 4800 2900 0    50   ~ 0
+C_DOWN
+Text Label 4800 2800 0    50   ~ 0
+C_LEFT
+Text Label 4800 2700 0    50   ~ 0
+C_RIGHT
+Text Label 4800 2600 0    50   ~ 0
+C_START
+Text Label 4800 2500 0    50   ~ 0
+C_SELECT
+Text Label 4800 2400 0    50   ~ 0
+C_A
+Text Label 4800 2300 0    50   ~ 0
 C_B
-Text Label 7000 2300 0    50   ~ 0
-C_X
-Text Label 7000 2400 0    50   ~ 0
-C_Y
-Text Label 7000 2500 0    50   ~ 0
-C_L
-Text Label 7000 2600 0    50   ~ 0
-C_R
-Text Label 7000 2700 0    50   ~ 0
-C_EX1
-Text Label 7000 2800 0    50   ~ 0
-C_EX2
-Text Label 7000 2900 0    50   ~ 0
-C_EX3
 Text Label 7000 3000 0    50   ~ 0
+C_X
+Text Label 7000 2900 0    50   ~ 0
+C_Y
+Text Label 7000 2800 0    50   ~ 0
+C_L
+Text Label 7000 2700 0    50   ~ 0
+C_R
+Text Label 7000 2600 0    50   ~ 0
+C_EX1
+Text Label 7000 2500 0    50   ~ 0
+C_EX2
+Text Label 7000 2400 0    50   ~ 0
+C_EX3
+Text Label 7000 2300 0    50   ~ 0
 C_EX4
 $Comp
 L power:GND #PWR0103
@@ -327,12 +327,12 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3850 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x17_Male JOYSTICK1
+L Connector:Conn_01x18_Male J1
 U 1 1 61507D81
 P 2950 2900
-F 0 "JOYSTICK1" H 3058 3881 50  0000 C CNN
-F 1 "Conn_01x17_Male" H 3058 3790 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 2950 2900 50  0001 C CNN
+F 0 "J1" H 3058 3881 50  0000 C CNN
+F 1 "Conn_01x18_Male" H 3058 3790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 2950 2900 50  0001 C CNN
 F 3 "~" H 2950 2900 50  0001 C CNN
 	1    2950 2900
 	1    0    0    -1  
@@ -570,4 +570,8 @@ Wire Wire Line
 	4050 3700 4050 3900
 Wire Wire Line
 	4050 2200 4050 3700
+Text Label 3650 3800 2    50   ~ 0
+C_SHORT
+Wire Wire Line
+	3150 3800 3650 3800
 $EndSCHEMATC
