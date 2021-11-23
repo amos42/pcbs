@@ -409,7 +409,7 @@ Wire Wire Line
 	9600 2300 10100 2300
 Text Label 9750 3800 0    50   ~ 0
 D_IN
-Text Label 9750 2400 0    50   ~ 0
+Text Label 9750 2500 0    50   ~ 0
 CLK
 Wire Wire Line
 	10100 2400 9750 2400
@@ -417,7 +417,7 @@ Wire Wire Line
 	10100 3800 9750 3800
 Wire Wire Line
 	10100 2500 9750 2500
-Text Label 9750 2500 0    50   ~ 0
+Text Label 9750 2400 0    50   ~ 0
 LOAD
 Wire Wire Line
 	10100 2600 9750 2600
@@ -438,13 +438,13 @@ Wire Wire Line
 	9600 3400 10100 3400
 Wire Wire Line
 	9600 3500 10100 3500
-Text Label 9750 3600 0    50   ~ 0
+Text Label 9750 3700 0    50   ~ 0
 CLK
 Wire Wire Line
 	10100 3600 9750 3600
 Wire Wire Line
 	10100 3700 9750 3700
-Text Label 9750 3700 0    50   ~ 0
+Text Label 9750 3600 0    50   ~ 0
 LOAD
 $Comp
 L power:GND #PWR0112
@@ -685,147 +685,55 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 616F4766
-P 2000 5450
-F 0 "RN1" V 1583 5450 50  0000 C CNN
-F 1 "R_Pack04" V 1674 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2275 5450 50  0001 C CNN
-F 3 "~" H 2000 5450 50  0001 C CNN
-	1    2000 5450
-	0    1    1    0   
+P 3900 6100
+F 0 "RN1" V 3483 6100 50  0000 C CNN
+F 1 "R_Pack04" V 3574 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4175 6100 50  0001 C CNN
+F 3 "~" H 3900 6100 50  0001 C CNN
+	1    3900 6100
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 616FB3DA
-P 3900 5400
-F 0 "RN2" V 3483 5400 50  0000 C CNN
-F 1 "R_Pack04" V 3574 5400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4175 5400 50  0001 C CNN
-F 3 "~" H 3900 5400 50  0001 C CNN
-	1    3900 5400
-	0    1    1    0   
+P 3900 5300
+F 0 "RN2" V 3483 5300 50  0000 C CNN
+F 1 "R_Pack04" V 3574 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4175 5300 50  0001 C CNN
+F 3 "~" H 3900 5300 50  0001 C CNN
+	1    3900 5300
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Pack04 RN3
 U 1 1 61701CC7
-P 3900 5800
-F 0 "RN3" V 3483 5800 50  0000 C CNN
-F 1 "R_Pack04" V 3574 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4175 5800 50  0001 C CNN
-F 3 "~" H 3900 5800 50  0001 C CNN
-	1    3900 5800
-	0    1    1    0   
+P 3900 5700
+F 0 "RN3" V 3483 5700 50  0000 C CNN
+F 1 "R_Pack04" V 3574 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4175 5700 50  0001 C CNN
+F 3 "~" H 3900 5700 50  0001 C CNN
+	1    3900 5700
+	0    1    -1   0   
 $EndComp
-$Comp
-L Device:R_Pack04 RN4
-U 1 1 61708741
-P 3900 6200
-F 0 "RN4" V 3483 6200 50  0000 C CNN
-F 1 "R_Pack04" V 3574 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 4175 6200 50  0001 C CNN
-F 3 "~" H 3900 6200 50  0001 C CNN
-	1    3900 6200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2200 5250 2200 5350
 Wire Wire Line
 	4100 6500 4400 6500
-Connection ~ 2200 5350
-Wire Wire Line
-	2200 5350 2200 5450
-Connection ~ 2200 5450
-Wire Wire Line
-	2200 5450 2200 5550
-Connection ~ 2200 5550
-Wire Wire Line
-	4100 5200 4100 5300
-Connection ~ 4100 5300
-Wire Wire Line
-	4100 5300 4100 5400
-Connection ~ 4100 5400
-Wire Wire Line
-	4100 5400 4100 5500
-Connection ~ 4100 5500
-Wire Wire Line
-	4100 5500 4100 5600
-Wire Wire Line
-	4100 5600 4100 5700
-Connection ~ 4100 5700
-Wire Wire Line
-	4100 5700 4100 5800
-Connection ~ 4100 5800
-Wire Wire Line
-	4100 5800 4100 5900
-Connection ~ 4100 5900
-Wire Wire Line
-	4100 5900 4100 6000
-Wire Wire Line
-	4100 6000 4100 6100
-Connection ~ 4100 6100
-Wire Wire Line
-	4100 6100 4100 6200
-Connection ~ 4100 6200
-Wire Wire Line
-	4100 6200 4100 6300
-Connection ~ 4100 6300
-Wire Wire Line
-	4100 6300 4100 6500
 Text Label 4400 6500 2    50   ~ 0
 PULL
-Connection ~ 4100 6000
-Connection ~ 4100 5600
-$Comp
-L Device:R_Pack04 RN5
-U 1 1 61784C97
-P 2000 5850
-F 0 "RN5" V 1583 5850 50  0000 C CNN
-F 1 "R_Pack04" V 1674 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2275 5850 50  0001 C CNN
-F 3 "~" H 2000 5850 50  0001 C CNN
-	1    2000 5850
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R_Pack04 RN6
 U 1 1 61784C9D
-P 2000 6250
-F 0 "RN6" V 1583 6250 50  0000 C CNN
-F 1 "R_Pack04" V 1674 6250 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2275 6250 50  0001 C CNN
-F 3 "~" H 2000 6250 50  0001 C CNN
-	1    2000 6250
-	0    1    1    0   
+P 2000 6150
+F 0 "RN6" V 1583 6150 50  0000 C CNN
+F 1 "R_Pack04" V 1674 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2275 6150 50  0001 C CNN
+F 3 "~" H 2000 6150 50  0001 C CNN
+	1    2000 6150
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	2200 6550 2500 6550
-Wire Wire Line
-	2200 5650 2200 5750
-Connection ~ 2200 5750
-Wire Wire Line
-	2200 5750 2200 5850
-Connection ~ 2200 5850
-Wire Wire Line
-	2200 5850 2200 5950
-Connection ~ 2200 5950
-Wire Wire Line
-	2200 5950 2200 6050
-Wire Wire Line
-	2200 6050 2200 6150
-Connection ~ 2200 6150
-Wire Wire Line
-	2200 6150 2200 6250
-Connection ~ 2200 6250
-Wire Wire Line
-	2200 6250 2200 6350
-Connection ~ 2200 6350
-Wire Wire Line
-	2200 6350 2200 6550
 Text Label 2500 6550 2    50   ~ 0
 PULL
-Connection ~ 2200 6050
-Connection ~ 2200 5650
-Wire Wire Line
-	2200 5550 2200 5650
 Wire Wire Line
 	8350 5000 8650 5000
 $Comp
@@ -839,4 +747,165 @@ F 3 "~" H 9250 5000 50  0001 C CNN
 	1    9250 5000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:C C1
+U 1 1 619D8D17
+P 4300 1900
+F 0 "C1" V 4048 1900 50  0000 C CNN
+F 1 "C" V 4139 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 1750 50  0001 C CNN
+F 3 "~" H 4300 1900 50  0001 C CNN
+	1    4300 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 619D96F9
+P 4150 1900
+F 0 "#PWR0115" H 4150 1650 50  0001 C CNN
+F 1 "GND" V 4155 1772 50  0000 R CNN
+F 2 "" H 4150 1900 50  0001 C CNN
+F 3 "" H 4150 1900 50  0001 C CNN
+	1    4150 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 4450 1900
+$Comp
+L Device:C C3
+U 1 1 619DC5A8
+P 6500 1900
+F 0 "C3" V 6248 1900 50  0000 C CNN
+F 1 "C" V 6339 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 1750 50  0001 C CNN
+F 3 "~" H 6500 1900 50  0001 C CNN
+	1    6500 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 6650 1900
+$Comp
+L Device:C C2
+U 1 1 619DCF2B
+P 5700 4600
+F 0 "C2" V 5448 4600 50  0000 C CNN
+F 1 "C" V 5539 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5738 4450 50  0001 C CNN
+F 3 "~" H 5700 4600 50  0001 C CNN
+	1    5700 4600
+	0    1    1    0   
+$EndComp
+Connection ~ 5850 4600
+$Comp
+L power:GND #PWR0116
+U 1 1 619DD50A
+P 6350 1900
+F 0 "#PWR0116" H 6350 1650 50  0001 C CNN
+F 1 "GND" V 6355 1772 50  0000 R CNN
+F 2 "" H 6350 1900 50  0001 C CNN
+F 3 "" H 6350 1900 50  0001 C CNN
+	1    6350 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 619DDAFA
+P 5550 4600
+F 0 "#PWR0117" H 5550 4350 50  0001 C CNN
+F 1 "GND" V 5555 4472 50  0000 R CNN
+F 2 "" H 5550 4600 50  0001 C CNN
+F 3 "" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN5
+U 1 1 61784C97
+P 2000 5750
+F 0 "RN5" V 1583 5750 50  0000 C CNN
+F 1 "R_Pack04" V 1674 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2275 5750 50  0001 C CNN
+F 3 "~" H 2000 5750 50  0001 C CNN
+	1    2000 5750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2200 5650 2200 5750
+Connection ~ 2200 5750
+Wire Wire Line
+	2200 5750 2200 5850
+Connection ~ 2200 5850
+Wire Wire Line
+	2200 5850 2200 5950
+Connection ~ 2200 5950
+Wire Wire Line
+	2200 5950 2200 6050
+Connection ~ 2200 6050
+Wire Wire Line
+	2200 6050 2200 6150
+Connection ~ 2200 6150
+Wire Wire Line
+	2200 6150 2200 6250
+Connection ~ 2200 6250
+Wire Wire Line
+	2200 6250 2200 6350
+Connection ~ 2200 6350
+Wire Wire Line
+	2200 6350 2200 6550
+Connection ~ 2200 5650
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 61708741
+P 2000 5350
+F 0 "RN4" V 1583 5350 50  0000 C CNN
+F 1 "R_Pack04" V 1674 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2275 5350 50  0001 C CNN
+F 3 "~" H 2000 5350 50  0001 C CNN
+	1    2000 5350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2200 5550 2200 5650
+Wire Wire Line
+	2200 5250 2200 5350
+Connection ~ 2200 5550
+Connection ~ 2200 5350
+Wire Wire Line
+	2200 5350 2200 5450
+Connection ~ 2200 5450
+Wire Wire Line
+	2200 5450 2200 5550
+Wire Wire Line
+	4100 6300 4100 6500
+Wire Wire Line
+	4100 5200 4100 5300
+Wire Wire Line
+	4100 5300 4100 5400
+Connection ~ 4100 5300
+Connection ~ 4100 6300
+Connection ~ 4100 5400
+Wire Wire Line
+	4100 5400 4100 5500
+Connection ~ 4100 5500
+Wire Wire Line
+	4100 5500 4100 5600
+Connection ~ 4100 5600
+Wire Wire Line
+	4100 5600 4100 5700
+Connection ~ 4100 5700
+Wire Wire Line
+	4100 5700 4100 5800
+Connection ~ 4100 5800
+Wire Wire Line
+	4100 5800 4100 5900
+Connection ~ 4100 5900
+Wire Wire Line
+	4100 5900 4100 6000
+Connection ~ 4100 6000
+Wire Wire Line
+	4100 6000 4100 6100
+Connection ~ 4100 6100
+Wire Wire Line
+	4100 6100 4100 6200
+Connection ~ 4100 6200
+Wire Wire Line
+	4100 6200 4100 6300
 $EndSCHEMATC
