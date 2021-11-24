@@ -5,18 +5,14 @@
 
 ![회로도](images/joystick_sch.png)
 
-PCB 앞면
+PCB 이미지 앞면
 
-![PCB](images/joystick_pcb_f.png)
+![PCB](images/pcb_image_f.jpg)
 
-PCB 뒷면
+PCB 이미지 뒷면
 
-![PCB](images/joystick_pcb_b.png)
+![PCB](images/pcb_image_b.jpg)
 
-PCB 이미지
-
-![PCB](images/pcb_image.jpg)
-
-샘플 이미지 앞면
+샘플 이미지
 
 ![샘플](images/sample_01.jpg)
