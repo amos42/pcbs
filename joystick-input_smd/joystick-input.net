@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\__Work\pcbs\joystick-input_smd\joystick-input.sch)
-    (date "2021-11-28 오후 5:46:01")
+    (date "2021-11-29 오후 10:05:21")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -45,7 +45,7 @@
       (tstamp 61507D81))
     (comp (ref OUT1)
       (value Conn_01x05_Male)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x05_Male) (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -136,7 +136,7 @@
       (tstamp 61701CC7))
     (comp (ref IN1)
       (value Conn_01x05_Male)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x05_Male) (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))

@@ -319,7 +319,7 @@ U 1 1 613498FD
 P 10300 2400
 F 0 "OUT1" H 10408 2781 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 10408 2690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 10300 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10300 2400 50  0001 C CNN
 F 3 "~" H 10300 2400 50  0001 C CNN
 	1    10300 2400
 	-1   0    0    -1  
@@ -985,7 +985,7 @@ U 1 1 6135617B
 P 9650 3350
 F 0 "IN1" H 9758 3731 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 9758 3640 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" H 9650 3350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9650 3350 50  0001 C CNN
 F 3 "~" H 9650 3350 50  0001 C CNN
 	1    9650 3350
 	1    0    0    -1  
