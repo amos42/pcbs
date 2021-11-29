@@ -1,4 +1,4 @@
-# Joystick 입력 보드
+# Joystick 입력 보드 (SMD 버전)
 
 
 회로도
