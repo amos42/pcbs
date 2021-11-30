@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*%
-%TF.CreationDate,2021-11-30T20:36:13+09:00*%
+%TF.CreationDate,2021-11-30T20:56:44+09:00*%
 %TF.ProjectId,joystick-input,6a6f7973-7469-4636-9b2d-696e7075742e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-11-30 20:36:13*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-11-30 20:56:44*
 %MOMM*%
 %LPD*%
 G01*
@@ -763,7 +763,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,74HC165_3,9*%
-%TO.N,/Q7_2*%
+%TO.N,/D_OUT_3*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1184,7 +1184,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,74HC165_2,10*%
-%TO.N,/Q7_2*%
+%TO.N,/D_OUT_3*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1212,7 +1212,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,74HC165_2,9*%
-%TO.N,/Q7*%
+%TO.N,/D_OUT_2*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -1633,7 +1633,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TO.P,74HC165_1,10*%
-%TO.N,/Q7*%
+%TO.N,/D_OUT_2*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
 G01*
@@ -2236,7 +2236,7 @@ X137007600Y-86080600D02*
 X135675600Y-86080600D01*
 X149353500Y-86169500D02*
 X149158521Y-85974521D01*
-%TO.N,/Q7*%
+%TO.N,/D_OUT_2*%
 X142429000Y-94996000D02*
 X141159000Y-93726000D01*
 X154036800Y-92343200D02*
@@ -2245,7 +2245,7 @@ X151384000Y-94996000D02*
 X142429000Y-94996000D01*
 X154036800Y-92329000D02*
 X154036800Y-92343200D01*
-%TO.N,/Q7_2*%
+%TO.N,/D_OUT_3*%
 X140778000Y-92456000D02*
 X140714500Y-92519500D01*
 X141159000Y-92456000D02*
