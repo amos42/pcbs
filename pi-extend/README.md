@@ -5,6 +5,9 @@
 좌우의 전원핀은 모두 납땜하는 것이 아닌, 각 브레드보드의 사이즈에 맞춰서 선택하여 납땜하면 된다.
 
 ---
+Raspberry pi 3 Pinout
+
+![RPI3 Pinout](images/rpi3_pinout.png)
 
 회로도
 
