@@ -21,3 +21,5 @@ PCB 이미지 뒷면
 샘플 이미지
 
 ![샘플](images/sample_01.jpg)
+
+![샘플](images/sample_02.jpg)
