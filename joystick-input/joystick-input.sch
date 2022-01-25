@@ -35,47 +35,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 7400 28
 	1    7400 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x03_Male PULL1
-U 1 1 6132E1E6
-P 8150 4200
-F 0 "PULL1" H 8250 4550 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 8200 4450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8150 4200 50  0001 C CNN
-F 3 "~" H 8150 4200 50  0001 C CNN
-	1    8150 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 4200 8650 4200
-Text Label 8650 4200 2    50   ~ 0
-PULL
-$Comp
-L power:VCC #PWR0101
-U 1 1 6133FC10
-P 8650 4100
-F 0 "#PWR0101" H 8650 3950 50  0001 C CNN
-F 1 "VCC" H 8665 4273 50  0000 C CNN
-F 2 "" H 8650 4100 50  0001 C CNN
-F 3 "" H 8650 4100 50  0001 C CNN
-	1    8650 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 4100 8650 4100
-$Comp
-L power:GND #PWR0102
-U 1 1 613414E6
-P 8650 4300
-F 0 "#PWR0102" H 8650 4050 50  0001 C CNN
-F 1 "GND" H 8655 4127 50  0000 C CNN
-F 2 "" H 8650 4300 50  0001 C CNN
-F 3 "" H 8650 4300 50  0001 C CNN
-	1    8650 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 4300 8650 4300
 Text Label 4200 3000 0    50   ~ 0
 C_UP
 Text Label 4200 2900 0    50   ~ 0
@@ -174,47 +133,6 @@ F 3 "" H 9050 2000 50  0001 C CNN
 	1    9050 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x03_Male SHORT1
-U 1 1 613769C0
-P 9300 4200
-F 0 "SHORT1" H 9400 4550 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 9350 4450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9300 4200 50  0001 C CNN
-F 3 "~" H 9300 4200 50  0001 C CNN
-	1    9300 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 4200 9800 4200
-Text Label 9800 4200 2    50   ~ 0
-C_SHORT
-$Comp
-L power:VCC #PWR0109
-U 1 1 613769C8
-P 9800 4100
-F 0 "#PWR0109" H 9800 3950 50  0001 C CNN
-F 1 "VCC" H 9815 4273 50  0000 C CNN
-F 2 "" H 9800 4100 50  0001 C CNN
-F 3 "" H 9800 4100 50  0001 C CNN
-	1    9800 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 4100 9800 4100
-$Comp
-L power:GND #PWR0110
-U 1 1 613769CF
-P 9800 4300
-F 0 "#PWR0110" H 9800 4050 50  0001 C CNN
-F 1 "GND" H 9805 4127 50  0000 C CNN
-F 2 "" H 9800 4300 50  0001 C CNN
-F 3 "" H 9800 4300 50  0001 C CNN
-	1    9800 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 4300 9800 4300
 Wire Wire Line
 	5950 2200 5700 2200
 Text Label 5950 2200 2    50   ~ 0
@@ -585,4 +503,86 @@ Wire Wire Line
 	2350 3450 3000 3450
 Wire Wire Line
 	2350 3550 3000 3550
+$Comp
+L power:GND #PWR0102
+U 1 1 613414E6
+P 8550 5000
+F 0 "#PWR0102" H 8550 4750 50  0001 C CNN
+F 1 "GND" H 8555 4827 50  0000 C CNN
+F 2 "" H 8550 5000 50  0001 C CNN
+F 3 "" H 8550 5000 50  0001 C CNN
+	1    8550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 6133FC10
+P 8550 4800
+F 0 "#PWR0101" H 8550 4650 50  0001 C CNN
+F 1 "VCC" H 8565 4973 50  0000 C CNN
+F 2 "" H 8550 4800 50  0001 C CNN
+F 3 "" H 8550 4800 50  0001 C CNN
+	1    8550 4800
+	1    0    0    -1  
+$EndComp
+Text Label 8550 4900 2    50   ~ 0
+PULL
+$Comp
+L Connector:Conn_01x03_Male PULL1
+U 1 1 6132E1E6
+P 7900 4900
+F 0 "PULL1" H 8000 5250 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7950 5150 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" H 7900 4900 50  0001 C CNN
+F 3 "~" H 7900 4900 50  0001 C CNN
+	1    7900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 613769CF
+P 8900 5000
+F 0 "#PWR0110" H 8900 4750 50  0001 C CNN
+F 1 "GND" H 8905 4827 50  0000 C CNN
+F 2 "" H 8900 5000 50  0001 C CNN
+F 3 "" H 8900 5000 50  0001 C CNN
+	1    8900 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 613769C8
+P 8900 4800
+F 0 "#PWR0109" H 8900 4650 50  0001 C CNN
+F 1 "VCC" H 8915 4973 50  0000 C CNN
+F 2 "" H 8900 4800 50  0001 C CNN
+F 3 "" H 8900 4800 50  0001 C CNN
+	1    8900 4800
+	-1   0    0    -1  
+$EndComp
+Text Label 8900 4900 0    50   ~ 0
+C_SHORT
+$Comp
+L Connector:Conn_01x03_Male SHORT1
+U 1 1 613769C0
+P 9550 4900
+F 0 "SHORT1" H 9650 5250 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 9600 5150 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" H 9550 4900 50  0001 C CNN
+F 3 "~" H 9550 4900 50  0001 C CNN
+	1    9550 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8100 4800 8550 4800
+Wire Wire Line
+	8100 4900 8550 4900
+Wire Wire Line
+	8100 5000 8550 5000
+Wire Wire Line
+	8900 4800 9350 4800
+Wire Wire Line
+	8900 4900 9350 4900
+Wire Wire Line
+	8900 5000 9350 5000
 $EndSCHEMATC
