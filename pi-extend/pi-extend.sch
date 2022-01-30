@@ -320,4 +320,38 @@ Connection ~ 5000 3250
 Wire Wire Line
 	4500 2850 5000 2850
 Connection ~ 5000 2850
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 61F64304
+P 9150 2050
+F 0 "J7" H 9258 2231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 9258 2140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9150 2050 50  0001 C CNN
+F 3 "~" H 9150 2050 50  0001 C CNN
+	1    9150 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2050 8950 2050
+Connection ~ 8250 2050
+Wire Wire Line
+	8250 2150 8950 2150
+Connection ~ 8250 2150
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 61F69E35
+P 2400 2050
+F 0 "J6" H 2508 2231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2508 2140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2400 2050 50  0001 C CNN
+F 3 "~" H 2400 2050 50  0001 C CNN
+	1    2400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2050 3300 2050
+Connection ~ 3300 2050
+Wire Wire Line
+	2600 2150 3300 2150
+Connection ~ 3300 2150
 $EndSCHEMATC
