@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2022-02-08T17:06:21+09:00"
+    "CreationDate":  "2022-02-08T17:05:31+09:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "pi-extend",
-      "GUID": "70692d65-7874-4656-9e64-2e6b69636164",
+      "Name": "odroid-extend",
+      "GUID": "6f64726f-6964-42d6-9578-74656e642e6b",
       "Revision": "rev?"
     },
     "Size":
@@ -38,47 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "pi-extend-F_Cu.gbr",
+      "Path":  "odroid-extend-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pi-extend-B_Cu.gbr",
+      "Path":  "odroid-extend-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pi-extend-F_Paste.gbr",
+      "Path":  "odroid-extend-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pi-extend-B_Paste.gbr",
+      "Path":  "odroid-extend-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pi-extend-F_SilkS.gbr",
+      "Path":  "odroid-extend-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pi-extend-B_SilkS.gbr",
+      "Path":  "odroid-extend-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pi-extend-F_Mask.gbr",
+      "Path":  "odroid-extend-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "pi-extend-B_Mask.gbr",
+      "Path":  "odroid-extend-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "pi-extend-Edge_Cuts.gbr",
+      "Path":  "odroid-extend-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
