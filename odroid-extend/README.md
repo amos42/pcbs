@@ -9,7 +9,7 @@ Odroid N2(+) Pinout
 
 회로도
 
-![회로도](images/odroid-extend_sch.png)
+![회로도](images/pi-extend_sch.png)
 
 PCB 이미지 앞면
 
