@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name joystick-input)(type KiCad)(uri ${KIPRJMOD}/joystick-input.pretty)(options "")(descr ""))
+)
