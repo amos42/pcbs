@@ -29,3 +29,9 @@
 ![joystick-input (SMD Ver.)](joystick-input_smd/images/sample_01.jpg)
 
 ---
+
+[74HC165를 사용한 Arcade Joystick 입력 보드 (JST 커넥터 타입)](joystick-input_jst/)
+
+![joystick-input (JST)](joystick-input_jst/images/sample_01.jpg)
+
+---
