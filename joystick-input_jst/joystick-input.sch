@@ -36,10 +36,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf" H 9050 19
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 PULL1
+L Jumper:SolderJumper_3_Bridged12 JP1
 U 1 1 6132E1E6
 P 9250 5200
-F 0 "PULL1" H 9358 5481 50  0000 C CNN
+F 0 "JP1" H 9358 5481 50  0000 C CNN
 F 1 "JUMPER" H 9358 5390 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" H 9250 5200 50  0001 C CNN
 F 3 "~" H 9250 5200 50  0001 C CNN
@@ -466,10 +466,10 @@ $EndComp
 Wire Wire Line
 	9400 5200 9700 5200
 $Comp
-L Jumper:SolderJumper_3_Bridged12 SHORT1
+L Jumper:SolderJumper_3_Bridged12 JP2
 U 1 1 617F9917
 P 10300 5200
-F 0 "SHORT1" H 10408 5481 50  0000 C CNN
+F 0 "JP2" H 10408 5481 50  0000 C CNN
 F 1 "JUMPER" H 10408 5390 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" H 10300 5200 50  0001 C CNN
 F 3 "~" H 10300 5200 50  0001 C CNN
@@ -785,10 +785,10 @@ Wire Wire Line
 Wire Wire Line
 	9550 1350 9900 1350
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J12
 U 1 1 62033F97
 P 3650 3250
-F 0 "J4" H 3730 3242 50  0000 L CNN
+F 0 "J12" H 3730 3242 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 3151 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 3250 50  0001 C CNN
 F 3 "~" H 3650 3250 50  0001 C CNN
@@ -796,10 +796,10 @@ F 3 "~" H 3650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J3
+L Connector_Generic:Conn_01x05 J11
 U 1 1 6203E789
 P 3650 2700
-F 0 "J3" H 3730 2742 50  0000 L CNN
+F 0 "J11" H 3730 2742 50  0000 L CNN
 F 1 "Conn_01x05" H 3730 2651 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 3650 2700 50  0001 C CNN
 F 3 "~" H 3650 2700 50  0001 C CNN
@@ -807,10 +807,10 @@ F 3 "~" H 3650 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J12
+L Connector_Generic:Conn_01x02 J13
 U 1 1 62059EB6
 P 3650 3500
-F 0 "J12" H 3730 3492 50  0000 L CNN
+F 0 "J13" H 3730 3492 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 3401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 3500 50  0001 C CNN
 F 3 "~" H 3650 3500 50  0001 C CNN
@@ -818,10 +818,10 @@ F 3 "~" H 3650 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J13
+L Connector_Generic:Conn_01x02 J14
 U 1 1 62064374
 P 3650 3750
-F 0 "J13" H 3730 3742 50  0000 L CNN
+F 0 "J14" H 3730 3742 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 3651 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 3750 50  0001 C CNN
 F 3 "~" H 3650 3750 50  0001 C CNN
@@ -829,10 +829,10 @@ F 3 "~" H 3650 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J14
+L Connector_Generic:Conn_01x02 J15
 U 1 1 6206E60C
 P 3650 4000
-F 0 "J14" H 3730 3992 50  0000 L CNN
+F 0 "J15" H 3730 3992 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 3901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 4000 50  0001 C CNN
 F 3 "~" H 3650 4000 50  0001 C CNN
@@ -840,10 +840,10 @@ F 3 "~" H 3650 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J15
+L Connector_Generic:Conn_01x02 J16
 U 1 1 62078B1A
 P 3650 4250
-F 0 "J15" H 3730 4242 50  0000 L CNN
+F 0 "J16" H 3730 4242 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 4151 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 4250 50  0001 C CNN
 F 3 "~" H 3650 4250 50  0001 C CNN
@@ -851,10 +851,10 @@ F 3 "~" H 3650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J16
+L Connector_Generic:Conn_01x02 J17
 U 1 1 620942AD
 P 3650 4500
-F 0 "J16" H 3730 4492 50  0000 L CNN
+F 0 "J17" H 3730 4492 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 4401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 4500 50  0001 C CNN
 F 3 "~" H 3650 4500 50  0001 C CNN
@@ -862,10 +862,10 @@ F 3 "~" H 3650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J17
+L Connector_Generic:Conn_01x02 J18
 U 1 1 620942B3
 P 3650 4750
-F 0 "J17" H 3730 4742 50  0000 L CNN
+F 0 "J18" H 3730 4742 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 4651 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 4750 50  0001 C CNN
 F 3 "~" H 3650 4750 50  0001 C CNN
@@ -873,10 +873,10 @@ F 3 "~" H 3650 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J18
+L Connector_Generic:Conn_01x02 J19
 U 1 1 620942B9
 P 3650 5000
-F 0 "J18" H 3730 4992 50  0000 L CNN
+F 0 "J19" H 3730 4992 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 4901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 5000 50  0001 C CNN
 F 3 "~" H 3650 5000 50  0001 C CNN
@@ -884,10 +884,10 @@ F 3 "~" H 3650 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open J19
+L Jumper:SolderJumper_2_Open JP3
 U 1 1 620942BF
 P 3450 6100
-F 0 "J19" H 3450 6305 50  0000 C CNN
+F 0 "JP3" H 3450 6305 50  0000 C CNN
 F 1 "Conn_01x02" H 3450 6214 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3450 6100 50  0001 C CNN
 F 3 "~" H 3450 6100 50  0001 C CNN
@@ -965,10 +965,10 @@ C_P2_UP
 Text Label 3300 6100 2    50   ~ 0
 C_P2_R
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J22
 U 1 1 6244BF7C
 P 1900 3250
-F 0 "J2" H 1980 3242 50  0000 L CNN
+F 0 "J22" H 1980 3242 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 3151 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 3250 50  0001 C CNN
 F 3 "~" H 1900 3250 50  0001 C CNN
@@ -976,10 +976,10 @@ F 3 "~" H 1900 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J1
+L Connector_Generic:Conn_01x05 J21
 U 1 1 6244BF82
 P 1900 2700
-F 0 "J1" H 1980 2742 50  0000 L CNN
+F 0 "J21" H 1980 2742 50  0000 L CNN
 F 1 "Conn_01x05" H 1980 2651 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 1900 2700 50  0001 C CNN
 F 3 "~" H 1900 2700 50  0001 C CNN
@@ -987,10 +987,10 @@ F 3 "~" H 1900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J5
+L Connector_Generic:Conn_01x02 J23
 U 1 1 6244BF88
 P 1900 3500
-F 0 "J5" H 1980 3492 50  0000 L CNN
+F 0 "J23" H 1980 3492 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 3401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 3500 50  0001 C CNN
 F 3 "~" H 1900 3500 50  0001 C CNN
@@ -998,10 +998,10 @@ F 3 "~" H 1900 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L Connector_Generic:Conn_01x02 J24
 U 1 1 6244BF8E
 P 1900 3750
-F 0 "J6" H 1980 3742 50  0000 L CNN
+F 0 "J24" H 1980 3742 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 3651 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 3750 50  0001 C CNN
 F 3 "~" H 1900 3750 50  0001 C CNN
@@ -1009,10 +1009,10 @@ F 3 "~" H 1900 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L Connector_Generic:Conn_01x02 J25
 U 1 1 6244BF94
 P 1900 4000
-F 0 "J7" H 1980 3992 50  0000 L CNN
+F 0 "J25" H 1980 3992 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 3901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 4000 50  0001 C CNN
 F 3 "~" H 1900 4000 50  0001 C CNN
@@ -1020,10 +1020,10 @@ F 3 "~" H 1900 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L Connector_Generic:Conn_01x02 J26
 U 1 1 6244BF9A
 P 1900 4250
-F 0 "J8" H 1980 4242 50  0000 L CNN
+F 0 "J26" H 1980 4242 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 4151 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 4250 50  0001 C CNN
 F 3 "~" H 1900 4250 50  0001 C CNN
@@ -1031,10 +1031,10 @@ F 3 "~" H 1900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L Connector_Generic:Conn_01x02 J27
 U 1 1 6244BFA0
 P 1900 4500
-F 0 "J9" H 1980 4492 50  0000 L CNN
+F 0 "J27" H 1980 4492 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 4401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 4500 50  0001 C CNN
 F 3 "~" H 1900 4500 50  0001 C CNN
@@ -1042,10 +1042,10 @@ F 3 "~" H 1900 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J10
+L Connector_Generic:Conn_01x02 J28
 U 1 1 6244BFA6
 P 1900 4750
-F 0 "J10" H 1980 4742 50  0000 L CNN
+F 0 "J28" H 1980 4742 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 4651 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 4750 50  0001 C CNN
 F 3 "~" H 1900 4750 50  0001 C CNN
@@ -1053,10 +1053,10 @@ F 3 "~" H 1900 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J11
+L Connector_Generic:Conn_01x02 J29
 U 1 1 6244BFAC
 P 1900 5000
-F 0 "J11" H 1980 4992 50  0000 L CNN
+F 0 "J29" H 1980 4992 50  0000 L CNN
 F 1 "Conn_01x02" H 1980 4901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 1900 5000 50  0001 C CNN
 F 3 "~" H 1900 5000 50  0001 C CNN
@@ -1138,10 +1138,10 @@ C_SHORT
 Wire Wire Line
 	2700 5400 3200 5400
 $Comp
-L Jumper:SolderJumper_2_Open J20
+L Jumper:SolderJumper_2_Open JP4
 U 1 1 625D6EA3
 P 3450 6450
-F 0 "J20" H 3450 6655 50  0000 C CNN
+F 0 "JP4" H 3450 6655 50  0000 C CNN
 F 1 "Conn_01x02" H 3450 6564 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3450 6450 50  0001 C CNN
 F 3 "~" H 3450 6450 50  0001 C CNN
@@ -1153,10 +1153,10 @@ C_P2_DOWN
 Text Label 3300 6450 2    50   ~ 0
 C_P2_L
 $Comp
-L Jumper:SolderJumper_2_Open J21
+L Jumper:SolderJumper_2_Open JP5
 U 1 1 625E2B74
 P 3450 6800
-F 0 "J21" H 3450 7005 50  0000 C CNN
+F 0 "JP5" H 3450 7005 50  0000 C CNN
 F 1 "Conn_01x02" H 3450 6914 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3450 6800 50  0001 C CNN
 F 3 "~" H 3450 6800 50  0001 C CNN
@@ -1168,10 +1168,10 @@ C_P2_LEFT
 Text Label 3300 6800 2    50   ~ 0
 C_P2_Y
 $Comp
-L Jumper:SolderJumper_2_Open J22
+L Jumper:SolderJumper_2_Open JP6
 U 1 1 625EE67C
 P 3450 7150
-F 0 "J22" H 3450 7355 50  0000 C CNN
+F 0 "JP6" H 3450 7355 50  0000 C CNN
 F 1 "Conn_01x02" H 3450 7264 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3450 7150 50  0001 C CNN
 F 3 "~" H 3450 7150 50  0001 C CNN
