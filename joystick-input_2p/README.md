@@ -1,4 +1,4 @@
-# Joystick 입력 보드
+# Joystick 입력 보드 (DIP, 2P)
 
 
 회로도
