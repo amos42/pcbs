@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(6.0.2)"
     },
-    "CreationDate": "2022-04-10T16:45:17+09:00"
+    "CreationDate": "2022-04-10T16:39:51+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "joystick-input",
-      "GUID": "6a6f7973-7469-4636-9b2d-696e7075742e",
+      "Name": "battery_array",
+      "GUID": "62617474-6572-4795-9f61-727261792e6b",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 53.44,
-      "Y": 29.564
+      "X": 101.2936,
+      "Y": 20.9026
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,44 +27,52 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "MinLineWidth": 0.25
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "joystick-input-F_Cu.gbr",
+      "Path": "battery_array-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "joystick-input-B_Cu.gbr",
+      "Path": "battery_array-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "joystick-input-F_Silkscreen.gbr",
+      "Path": "battery_array-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "battery_array-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "battery_array-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "joystick-input-B_Silkscreen.gbr",
+      "Path": "battery_array-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "joystick-input-F_Mask.gbr",
+      "Path": "battery_array-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "joystick-input-B_Mask.gbr",
+      "Path": "battery_array-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "joystick-input-Edge_Cuts.gbr",
+      "Path": "battery_array-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
