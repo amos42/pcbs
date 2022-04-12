@@ -18,6 +18,12 @@
 
 ---
 
+[74HC165를 사용한 입력 보드 (DIP Ver.)](input-74hc165/README.md)
+
+![74HC165-input (DIP Ver.)](input-74hc165/images/sample_01.jpg)
+
+---
+
 [74HC165를 사용한 Arcade Joystick 입력 보드 (DIP Ver.)](joystick-input/README.md)
 
 ![joystick-input (DIP Ver.)](joystick-input/images/sample_01.jpg)
