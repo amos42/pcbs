@@ -47,3 +47,9 @@
 ![joystick-input (JST)](joystick-input_jst/images/sample_01.jpg)
 
 ---
+
+[모니터 컨트롤 버튼 보드](4way-buttons/README.md)
+
+![4way-buttons](4way-buttons/images/sample_01.jpg)
+
+---
