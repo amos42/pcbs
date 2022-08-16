@@ -48,8 +48,8 @@
 
 ---
 
-[모니터 컨트롤 버튼 보드](4way-buttons/README.md)
+[모니터 컨트롤 버튼 보드](monitor_control_board/README.md)
 
-![4way-buttons](4way-buttons/images/sample_01.jpg)
+![4way-buttons](monitor_control_board/images/sample_01.jpg)
 
 ---
