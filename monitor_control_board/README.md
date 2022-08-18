@@ -8,6 +8,8 @@
 
 ![4방향 버튼 적용](images/monitor_control_board_02.jpg)
 
+![4방향 버튼 보드 레이아웃](monitor_control_button_layout_0.svg)
+
 
 회로도
 
