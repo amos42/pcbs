@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(6.0.9)"
     },
-    "CreationDate": "2023-01-09T21:15:12+09:00"
+    "CreationDate": "2023-01-09T21:19:57+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "monitor_control_board",
-      "GUID": "6d6f6e69-746f-4725-9f63-6f6e74726f6c",
+      "Name": "rasp_power_module",
+      "GUID": "72617370-5f70-46f7-9765-725f6d6f6475",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 50.2646,
-      "Y": 65.2648
+      "X": 45.82,
+      "Y": 59.536
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,52 +27,52 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25
+      "MinLineWidth": 0.23
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "monitor_control_board-F_Cu.gbr",
+      "Path": "rasp_power_module-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitor_control_board-B_Cu.gbr",
+      "Path": "rasp_power_module-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitor_control_board-F_Paste.gbr",
+      "Path": "rasp_power_module-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitor_control_board-B_Paste.gbr",
+      "Path": "rasp_power_module-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitor_control_board-F_Silkscreen.gbr",
+      "Path": "rasp_power_module-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitor_control_board-B_Silkscreen.gbr",
+      "Path": "rasp_power_module-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitor_control_board-F_Mask.gbr",
+      "Path": "rasp_power_module-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "monitor_control_board-B_Mask.gbr",
+      "Path": "rasp_power_module-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "monitor_control_board-Edge_Cuts.gbr",
+      "Path": "rasp_power_module-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
