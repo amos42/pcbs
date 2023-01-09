@@ -2043,7 +2043,7 @@
     (in_bom yes) (on_board yes)
     (uuid 6ffa32bb-1b7b-4bd8-8ba6-9a0e1e29d446)
     (property "Reference" "D1" (id 0) (at 103.505 87.63 0))
-    (property "Value" "ZMM5V1" (id 1) (at 103.505 85.09 0))
+    (property "Value" "ZMM5V6-M" (id 1) (at 103.505 85.09 0))
     (property "Footprint" "Diode_SMD:D_MiniMELF" (id 2) (at 103.505 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2229,7 +2229,7 @@
     (property "Reference" "Q1" (id 0) (at 91.44 103.5049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BC847" (id 1) (at 91.44 106.0449 0)
+    (property "Value" "S8050 J3Y" (id 1) (at 91.44 106.0449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 91.44 106.68 0)
@@ -2440,7 +2440,7 @@
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/6ffa32bb-1b7b-4bd8-8ba6-9a0e1e29d446"
-      (reference "D1") (unit 1) (value "ZMM5V1") (footprint "Diode_SMD:D_MiniMELF")
+      (reference "D1") (unit 1) (value "ZMM5V6-M") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/da01d749-a415-47cd-ace4-8856b376a7d1"
       (reference "D2") (unit 1) (value "1N4001") (footprint "Diode_SMD:D_SMC-RM10_Universal_Handsoldering")
@@ -2488,7 +2488,7 @@
       (reference "K2") (unit 1) (value "FINDER-36.11") (footprint "Relay_THT:Relay_SPDT_Finder_36.11")
     )
     (path "/d84b1815-2690-4690-8b03-9413b97ff56a"
-      (reference "Q1") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "S8050 J3Y") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/9931a1f5-893c-49a1-984f-e907ea5ea560"
       (reference "R1") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")

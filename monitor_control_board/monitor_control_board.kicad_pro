@@ -56,12 +56,19 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|133081999|77784001|83a2827d-0697-432f-a6ee-82063c459356|9584576e-b6d1-44c7-acbc-ddc512da1739",
         "courtyards_overlap|145660001|76503201|075b1201-ad27-465f-9696-3ab5f075f1b2|f87264a6-44d1-404e-9e9d-c1e7d7232f27",
+        "courtyards_overlap|145682001|76503201|075b1201-ad27-465f-9696-3ab5f075f1b2|f87264a6-44d1-404e-9e9d-c1e7d7232f27",
+        "courtyards_overlap|147281999|76373999|075b1201-ad27-465f-9696-3ab5f075f1b2|9ae5e7bc-23a4-4188-a279-4b06081cdedc",
+        "courtyards_overlap|147281999|89154001|075b1201-ad27-465f-9696-3ab5f075f1b2|92f3c28f-9476-4901-b64f-24b06197147a",
         "courtyards_overlap|147306999|76404799|075b1201-ad27-465f-9696-3ab5f075f1b2|9ae5e7bc-23a4-4188-a279-4b06081cdedc",
         "courtyards_overlap|147306999|89152401|075b1201-ad27-465f-9696-3ab5f075f1b2|92f3c28f-9476-4901-b64f-24b06197147a",
         "courtyards_overlap|160069201|74692401|43ee6319-7dd0-48c1-b41c-b8fb19894792|9ae5e7bc-23a4-4188-a279-4b06081cdedc",
         "courtyards_overlap|160069201|89152401|43ee6319-7dd0-48c1-b41c-b8fb19894792|92f3c28f-9476-4901-b64f-24b06197147a",
-        "courtyards_overlap|161482122|76503201|43ee6319-7dd0-48c1-b41c-b8fb19894792|f87264a6-44d1-404e-9e9d-c1e7d7232f27"
+        "courtyards_overlap|160082001|74704001|43ee6319-7dd0-48c1-b41c-b8fb19894792|9ae5e7bc-23a4-4188-a279-4b06081cdedc",
+        "courtyards_overlap|160082001|89154001|43ee6319-7dd0-48c1-b41c-b8fb19894792|92f3c28f-9476-4901-b64f-24b06197147a",
+        "courtyards_overlap|161482122|76503201|43ee6319-7dd0-48c1-b41c-b8fb19894792|f87264a6-44d1-404e-9e9d-c1e7d7232f27",
+        "courtyards_overlap|161485871|76503201|43ee6319-7dd0-48c1-b41c-b8fb19894792|f87264a6-44d1-404e-9e9d-c1e7d7232f27"
       ],
       "meta": {
         "version": 2
@@ -353,7 +360,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "4way-buttons.kicad_pro",
+    "filename": "monitor_control_board.kicad_pro",
     "version": 1
   },
   "net_settings": {

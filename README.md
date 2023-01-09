@@ -53,3 +53,9 @@
 ![4way-buttons](monitor_control_board/images/sample_01.jpg)
 
 ---
+
+[Raspberry Pie 전원 모듈](rasp_power_module/README.md)
+
+![4way-buttons](rasp_power_module/images/rasp_power_module.jpg)
+
+---
