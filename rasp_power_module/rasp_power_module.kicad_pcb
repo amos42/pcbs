@@ -1379,7 +1379,7 @@
   (gr_text "Amos Rasp-PM" (at 132.08 58.674) (layer "F.SilkS") (tstamp e843d7d0-4abe-4a44-9a82-c82689b1f87c)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Rev.1" (at 135.89 60.452) (layer "F.SilkS") (tstamp f18d20ba-5355-4daa-b551-3d4e06225c71)
+  (gr_text "Rev.2" (at 135.89 60.452) (layer "F.SilkS") (tstamp f18d20ba-5355-4daa-b551-3d4e06225c71)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "V" (at 122.682 90.17 270) (layer "F.SilkS") (tstamp f85c6b10-1284-43ae-823e-100ae22a54f7)
