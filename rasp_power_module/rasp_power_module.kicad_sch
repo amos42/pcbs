@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Raspberry Pie Power Module")
+    (date "2023-01-11")
+    (rev "2")
+    (company "for game machine makers")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
