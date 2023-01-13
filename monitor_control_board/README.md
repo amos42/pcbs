@@ -1,4 +1,4 @@
-# Monitor Control Board
+# Monitor OSD Control Board
 
 ![4방향 버튼](images/4way_button.jpg)
 
