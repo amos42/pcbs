@@ -1,13 +1,16 @@
 # 자작 PCB 모음
 
 [ESP-Prog용 Adaptor](esp-prog-adaptor/)
+
 [README.md](esp-prog-adaptor/README.md)
 
 ![esp-prog-adaptor](esp-prog-adaptor/images/sample_01.jpg)
 
 ---
 
-[Raspberry Pi용 IO 확장](pi-extend/README.md)
+[Raspberry Pi용 IO 확장](pi-extend/)
+
+[README.md](pi-extend/README.md)
 
 ![pi-extend](pi-extend/images/sample_01.jpg)
 
