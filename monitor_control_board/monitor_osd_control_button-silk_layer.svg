@@ -9,7 +9,7 @@
    id="svg1201"
    xml:space="preserve"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="monitor_osd_control_button-silk.svg"
+   sodipodi:docname="monitor_osd_control_button-silk_layer.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.2938725"
-     inkscape:cx="-150.71037"
-     inkscape:cy="253.11613"
+     inkscape:zoom="4"
+     inkscape:cx="30"
+     inkscape:cy="76.125"
      inkscape:window-width="3440"
      inkscape:window-height="1351"
      inkscape:window-x="-9"
@@ -70,7 +70,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-2.6301259,-3.5467292)"><g
-       id="g3266"><path
+       id="g3193"><path
          style="fill:none;stroke:#000000;stroke-width:0.264583"
          d="M 52.762423,45.678978 V 39.678229"
          id="path1401" /><path
@@ -322,4 +322,7 @@
          id="path1585" /><path
          style="fill:none;stroke:#000000;stroke-width:0.264583"
          d="M 2.7624174,45.678978 H 8.7624265"
-         id="path1587" /></g></g></svg>
+         id="path1587" /><path
+         d="m 28.256772,24.68043 a 0.50000005,0.50000005 0 0 0 -1,0 0.50000005,0.50000005 0 0 0 1,0 z"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         id="path799" /></g></g></svg>

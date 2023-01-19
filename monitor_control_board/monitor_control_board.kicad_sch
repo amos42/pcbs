@@ -1620,7 +1620,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (id 1) (at 226.695 73.914 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH-12mm" (id 2) (at 226.695 67.31 0)
+    (property "Footprint" "monitor_control_board_library:SW_PUSH-12mm_Complex" (id 2) (at 226.695 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 226.695 67.31 0)
@@ -1637,7 +1637,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (id 1) (at 204.47 73.914 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH-12mm" (id 2) (at 204.47 67.31 0)
+    (property "Footprint" "monitor_control_board_library:SW_PUSH-12mm_Complex" (id 2) (at 204.47 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 204.47 67.31 0)
@@ -1787,7 +1787,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (id 1) (at 203.835 51.054 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH-12mm" (id 2) (at 203.835 44.45 0)
+    (property "Footprint" "monitor_control_board_library:SW_PUSH-12mm_Complex" (id 2) (at 203.835 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 203.835 44.45 0)
@@ -1949,7 +1949,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 81.28 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 94b5e945-5454-483f-a874-b3e91dafa008)
-    (property "Reference" "#FLG?" (id 0) (at 83.185 53.34 0)
+    (property "Reference" "#FLG0101" (id 0) (at 83.185 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 85.09 53.3399 90)
@@ -1971,7 +1971,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (id 1) (at 204.47 97.409 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH-12mm" (id 2) (at 204.47 90.805 0)
+    (property "Footprint" "monitor_control_board_library:SW_PUSH-12mm_Complex" (id 2) (at 204.47 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 204.47 90.805 0)
@@ -2095,7 +2095,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (id 1) (at 181.61 74.549 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH-12mm" (id 2) (at 181.61 67.945 0)
+    (property "Footprint" "monitor_control_board_library:SW_PUSH-12mm_Complex" (id 2) (at 181.61 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 181.61 67.945 0)
@@ -2199,7 +2199,7 @@
 
   (symbol_instances
     (path "/94b5e945-5454-483f-a874-b3e91dafa008"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/bc319651-4db4-432c-99a9-47f722955312"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
@@ -2277,19 +2277,19 @@
       (reference "R1") (unit 1) (value "5K1-0805") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/d0754a39-0cf1-4bbe-83a4-6155f2cbc878"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH-12mm")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "monitor_control_board_library:SW_PUSH-12mm_Complex")
     )
     (path "/4d2bcc63-a2dd-418c-bd5f-ddaef4fca43f"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH-12mm")
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "monitor_control_board_library:SW_PUSH-12mm_Complex")
     )
     (path "/19cf3f75-846d-40c4-99e9-986cfa896c10"
-      (reference "SW3") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH-12mm")
+      (reference "SW3") (unit 1) (value "SW_Push") (footprint "monitor_control_board_library:SW_PUSH-12mm_Complex")
     )
     (path "/98e08b96-ee1b-4bfe-acf7-0dc72d6a3691"
-      (reference "SW4") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH-12mm")
+      (reference "SW4") (unit 1) (value "SW_Push") (footprint "monitor_control_board_library:SW_PUSH-12mm_Complex")
     )
     (path "/1436a783-6564-4cf1-b04a-2e5a11e5eb64"
-      (reference "SW5") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH-12mm")
+      (reference "SW5") (unit 1) (value "SW_Push") (footprint "monitor_control_board_library:SW_PUSH-12mm_Complex")
     )
     (path "/06fc7b9c-8a77-4564-ae4b-423182fb3d64"
       (reference "SW6") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH_6mm")
