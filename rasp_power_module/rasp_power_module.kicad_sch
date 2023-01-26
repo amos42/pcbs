@@ -1967,7 +1967,7 @@
     (uuid 5a04342f-e4df-44b9-ba51-298c1cfa0d1d)
     (property "Reference" "J1" (id 0) (at 29.845 51.435 0))
     (property "Value" "Conn_01x02" (id 1) (at 29.845 53.975 0))
-    (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (id 2) (at 29.845 57.785 0)
+    (property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" (id 2) (at 29.845 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.845 57.785 0)
@@ -2201,7 +2201,7 @@
     (property "Value" "Conn_01x02" (id 1) (at 45.72 171.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm" (id 2) (at 38.735 168.91 0)
+    (property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P6mm_D1.7mm_OD3mm" (id 2) (at 38.735 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.735 168.91 0)
@@ -2462,7 +2462,7 @@
       (reference "DCDC2") (unit 1) (value "LM2596_module") (footprint "rasp_power_module:LM2596_dcdc_module")
     )
     (path "/5a04342f-e4df-44b9-ba51-298c1cfa0d1d"
-      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm")
+      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm")
     )
     (path "/0fb0e148-7e8a-4b3c-b734-94d642398d1c"
       (reference "J2") (unit 1) (value "Conn_01x05") (footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical")
@@ -2471,7 +2471,7 @@
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/d66a6e59-d578-47f3-99d4-f797be9d6a2a"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm")
+      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-1.5sqmm_1x02_P6mm_D1.7mm_OD3mm")
     )
     (path "/44853d00-3f66-4577-b2c7-73415bd36cf1"
       (reference "J7") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")

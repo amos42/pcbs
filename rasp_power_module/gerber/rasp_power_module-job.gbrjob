@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.9)"
+      "Version": "(6.0.10)"
     },
-    "CreationDate": "2023-01-11T15:19:30+09:00"
+    "CreationDate": "2023-01-26T23:09:25+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "rasp_power_module",
       "GUID": "72617370-5f70-46f7-9765-725f6d6f6475",
-      "Revision": "rev?"
+      "Revision": "2"
     },
     "Size": {
       "X": 45.82,
-      "Y": 59.536
+      "Y": 59.409
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,7 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.23
+      "MinLineWidth": 0.25
     }
   ],
   "FilesAttributes": [
