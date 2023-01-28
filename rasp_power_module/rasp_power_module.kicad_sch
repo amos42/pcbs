@@ -2258,7 +2258,7 @@
     (property "Value" "1N4007" (id 1) (at 142.875 87.6299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 144.78 86.36 0)
+    (property "Footprint" "Diode_SMD:D_SMC-RM10_Universal_Handsoldering" (id 2) (at 144.78 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (id 3) (at 140.335 86.36 0)
@@ -2449,7 +2449,7 @@
       (reference "D1") (unit 1) (value "LL4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/da01d749-a415-47cd-ace4-8856b376a7d1"
-      (reference "D2") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D2") (unit 1) (value "1N4007") (footprint "Diode_SMD:D_SMC-RM10_Universal_Handsoldering")
     )
     (path "/2d7a1a59-7c3b-4322-8062-cc884281e53c"
       (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
