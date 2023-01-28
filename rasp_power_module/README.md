@@ -23,8 +23,8 @@ Safety-shutdown 기능을 포함한 라즈베리파이의 전원 모듈
 | R3 | R_0805_2012Metric | 1 | 100K
 | R4 | R_0805_2012Metric | 1 | 30K 
 | R5 | R_0805_2012Metric | 1 | 4K7
-| D1 | D_MiniMELF | 1 | ZMM5V6-M
-| D2 | D_SMC-RM10_Universal_Handsoldering | 1 | 1N4001
+| D1 | D_MiniMELF | 1 | LL4148
+| D2 | D_SMC-RM10_Universal_Handsoldering | 1 | 1N4007
 | D3 | LED_0805_2012Metric | 1 | LED
 | Q1 | SOT-23 | 1 | S8050 J3Y
 | J2 | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical | 1 | Conn_01x05
