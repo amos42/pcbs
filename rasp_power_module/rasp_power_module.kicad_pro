@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|125884001|68560001|4ae3fab6-1a22-4c25-9365-5431fedb3758|cf7de869-9324-441d-b3d0-e633d8ac08b7",
-        "courtyards_overlap|136429999|97006001|1e2adc0f-cbc4-4f93-892f-db98d569528a|caaf3f04-188f-4d88-a9e2-43430910fb25"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -66,7 +63,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -89,7 +86,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
