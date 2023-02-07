@@ -69,3 +69,10 @@
 ![4way-buttons](rasp_power_module/images/rasp_power_module.jpg)
 
 ---
+
+[Raspberry Pie GPIO 입력 모듈](rasp_gpio_input/)
+([README.md](rasp_gpio_input/README.md))
+
+![4way-buttons](rasp_gpio_input/images/rasp_gpio_input.jpg)
+
+---
