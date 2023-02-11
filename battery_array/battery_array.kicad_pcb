@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Amos 3S20P Battery Array Board")
+    (rev "1")
+    (company "Amos Home")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)

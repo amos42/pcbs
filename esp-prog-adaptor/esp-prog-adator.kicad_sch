@@ -7,7 +7,8 @@
   (title_block
     (title "ESP32 JTAG Adapter")
     (date "2021-09-02")
-    (rev "1.0")
+    (rev "2")
+    (company "Amos Home")
     (comment 1 "/blob/master/docs/en/hw-reference/ESP-Prog_guide.rst")
     (comment 2 "https://github.com/espressif/esp-iot-solution")
   )
