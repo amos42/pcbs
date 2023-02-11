@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Joystick Input")
+    (rev "2")
+    (company "Amos Home")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC165" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 19.05 0)

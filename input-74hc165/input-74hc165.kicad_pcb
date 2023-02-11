@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "74HC165 Input Board")
+    (rev "1")
+    (company "Amos Home")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -30,6 +36,7 @@
 
   (setup
     (pad_to_mask_clearance 0)
+    (aux_axis_origin 148.59 105.537)
     (pcbplotparams
       (layerselection 0x00010f0_ffffffff)
       (disableapertmacros false)
