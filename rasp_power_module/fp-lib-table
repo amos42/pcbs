@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "rasp_power_module")(type "KiCad")(uri "${KIPRJMOD}/rasp_power_module.pretty")(options "")(descr ""))
-)
