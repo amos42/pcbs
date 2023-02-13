@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "ESP32 JTAG Adapter")
+    (title "ESP32 JTAG Adapter (for ESP32-DevKitC)")
     (date "2021-09-02")
     (rev "2")
     (company "Amos Home")

@@ -1,4 +1,4 @@
-# ESP-Prog to ESP32-DevKitC Adaptor
+# ESP-Prog to ESP32-DevKitC Adaptor (for ESP32-DevKitC)
 
 ### Test Sample
 
