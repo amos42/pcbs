@@ -26,7 +26,7 @@
 
 ---
 
-[74HC165를 사용한 Arcade Joystick 입력 보드 (DIP 2P Ver.)](https://github.com/amos42/pcb_joystick_input/tree/master/joystick_74hc165_input_1p/)
+[74HC165를 사용한 Arcade Joystick 입력 보드 (DIP 1P Ver.)](https://github.com/amos42/pcb_joystick_input/tree/master/joystick_74hc165_input_1p/)
 
 ![joystick-input (DIP Ver.)](https://github.com/amos42/pcb_joystick_input/raw/master/joystick_74hc165_input_1p/images/sample_01.jpg)
 
