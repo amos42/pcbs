@@ -1,0 +1,7 @@
+*.cache
+*-cache*
+*.bak
+*-bak
+_autosave-*
+*-backups
+*/gerber/*.zip
