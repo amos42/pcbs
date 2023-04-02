@@ -52,7 +52,10 @@
 
 [Raspberry Pie GPIO Arcade Joystick 입력 보드](https://github.com/amos42/pcb_joystick_input/tree/master/joystick_gpio_input/)
 
-![4way-buttons](https://github.com/amos42/pcb_joystick_input/raw/master/joystick_gpio_input/images/joystick_gpio_input.jpg)
+![Main part](https://github.com/amos42/pcb_joystick_input/raw/master/joystick_gpio_input/joystick_gpio_input_main_part/images/joystick_gpio_input_main_part_sample_image_1.jpg)
+
+![1p part](https://github.com/amos42/pcb_joystick_input/raw/master/joystick_gpio_input/joystick_gpio_input_1p_rasp_part/images/joystick_gpio_input_1p_rasp_part_sample_image_1.jpg)
+![2p part](https://github.com/amos42/pcb_joystick_input/raw/master/joystick_gpio_input/joystick_gpio_input_2p_rasp_part/images/joystick_gpio_input_2p_rasp_part_sample_image_1.jpg)
 
 ---
 
