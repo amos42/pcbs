@@ -70,3 +70,9 @@
 ![](https://github.com/amos42/pcb_rasp_power_module/raw/master/rasp_power_module/images/rasp_power_module.jpg)
 
 ---
+
+[조이스틱 입력 패널 서포트 보드](https://github.com/amos42/pcb_joystick_input/tree/master/arcade_input_panel_support/)
+
+![](https://github.com/amos42/pcb_joystick_input/raw/master/arcade_input_panel_support/images/sample_01.jpg)
+
+---
