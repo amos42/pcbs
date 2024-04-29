@@ -59,11 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|142214001|42131601|92a64c5f-22e5-40d8-a1ad-1445660ef162|d1f75d45-61ee-41db-b532-3399f46aa2ea",
-        "silk_overlap|142810800|44041600|1f3b572f-920e-4eeb-98fe-524ae92d3efe|00ca77d1-30a0-49b7-812c-8288ceb8b6c7",
-        "silk_overlap|142810800|70646600|ed66f951-ae2a-4599-9e15-27393ce1bc33|1f3b572f-920e-4eeb-98fe-524ae92d3efe"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -450,11 +446,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "pitch-convert"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lvds-connect.kicad_pro",
+    "filename": "pitch-convert.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -515,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
