@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.2"
     },
-    "CreationDate": "2024-05-06T01:30:39+09:00"
+    "CreationDate": "2024-05-06T01:08:36+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "pitch-convert",
-      "GUID": "70697463-682d-4636-9f6e-766572742e6b",
+      "Name": "pitch-convert2",
+      "GUID": "70697463-682d-4636-9f6e-76657274322e",
       "Revision": "1"
     },
     "Size": {
-      "X": 31.6,
-      "Y": 52.6
+      "X": 10.6918,
+      "Y": 41.1972
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -32,47 +32,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "pitch-convert-F_Cu.gbr",
+      "Path": "pitch-convert2-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pitch-convert-B_Cu.gbr",
+      "Path": "pitch-convert2-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pitch-convert-F_Paste.gbr",
+      "Path": "pitch-convert2-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pitch-convert-B_Paste.gbr",
+      "Path": "pitch-convert2-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pitch-convert-F_Silkscreen.gbr",
+      "Path": "pitch-convert2-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pitch-convert-B_Silkscreen.gbr",
+      "Path": "pitch-convert2-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pitch-convert-F_Mask.gbr",
+      "Path": "pitch-convert2-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "pitch-convert-B_Mask.gbr",
+      "Path": "pitch-convert2-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "pitch-convert-Edge_Cuts.gbr",
+      "Path": "pitch-convert2-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
