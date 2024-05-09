@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Through hole straight socket strip, 1x16, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
-	(tags "Through hole socket strip THT 1x16 2.54mm single row")
+	(descr "Surface mounted socket strip SMD 1x16 2.54mm single row style1 pin1 right")
+	(tags "Surface mounted socket strip SMD 1x16 2.54mm single row style1 pin1 right")
 	(property "Reference" "REF**"
 		(at 0 -2.77 0)
 		(layer "F.SilkS")
@@ -63,10 +63,10 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_rect
-		(start -1.143 -1.27)
-		(end 3.556 39.37)
+		(start -0.9906 -0.9906)
+		(end 3.429 39.0906)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76,8 +76,8 @@
 		(uuid "6edbdda6-7e0d-45f1-8753-3207bdd12faf")
 	)
 	(fp_rect
-		(start -1.27 -1.397)
-		(end 3.683 39.497)
+		(start -1.0668 -1.0668)
+		(end 3.5052 39.1668)
 		(stroke
 			(width 0.05)
 			(type default)
