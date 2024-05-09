@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.2"
     },
-    "CreationDate": "2024-05-06T01:08:36+09:00"
+    "CreationDate": "2024-05-10T00:02:01+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "pitch-convert2",
       "GUID": "70697463-682d-4636-9f6e-76657274322e",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size": {
-      "X": 10.6918,
-      "Y": 41.1972
+      "X": 10.3362,
+      "Y": 41.1718
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
