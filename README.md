@@ -87,15 +87,15 @@
 
 ---
 
-[Pitch Convert 보드](pitch_convert/)
-([README.md](pitch_convert/README.md))
+[Pitch Convert 보드](pitch-convert/)
+([README.md](pitch-convert/README.md))
 
 ![pitch-convert](pitch-convert/images/sample_01.jpg)
 
 ---
 
-[Pitch Convert 보드 2](pitch_convert2/)
-([README.md](pitch_convert2/README.md))
+[Pitch Convert 보드 2](pitch-convert2/)
+([README.md](pitch-convert2/README.md))
 
 ![pitch-convert](pitch-convert2/images/sample_01.jpg)
 
