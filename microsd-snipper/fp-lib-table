@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SparkFun_MicroSD_Sniffer")(type "KiCad")(uri "$(KIPRJMOD)/microsd-snipper.pretty")(options "")(descr ""))
+)
