@@ -87,6 +87,12 @@
 
 ---
 
+[KVM 스위치 보드](https://github.com/amos42/pcb_kvm_extend/tree/master/kvm_switch/)
+
+![](https://github.com/amos42/pcb_kvm_extend/raw/master/kvm_switch/images/sample_01.jpg)
+
+---
+
 [Pitch Convert 보드](pitch-convert/)
 ([README.md](pitch-convert/README.md))
 
